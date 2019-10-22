@@ -17,7 +17,6 @@ class Dog
     @name
   end
 
-<<<<<<< HEAD
   def owner
     @owner
   end
