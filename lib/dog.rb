@@ -33,8 +33,7 @@ class Dog
     @mood = mood
   end
 
-=======
->>>>>>> c4c2c11a85409358d19682720075346482d51ab3
+
   def self.all
     @@all
   end
