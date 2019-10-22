@@ -33,7 +33,6 @@ class Owner
   end
 
   def cats
-<<<<<<< HEAD
     Cat.all.select do |c|
       c.owner == self
     end
@@ -71,9 +70,7 @@ class Owner
   def list_pets
     "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
   end
-=======
     cats.all
   end
 
->>>>>>> c4c2c11a85409358d19682720075346482d51ab3
 end
