@@ -1,10 +1,8 @@
 require 'pry'
 
 class Dog
-<<<<<<< HEAD
-=======
+
   attr_accessor :owner, :mood
->>>>>>> c4c2c11a85409358d19682720075346482d51ab3
   attr_reader :name
   @@all = []
 
