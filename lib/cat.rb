@@ -1,4 +1,8 @@
 class Cat
+<<<<<<< HEAD
+=======
+  attr_accessor :owner, :mood
+>>>>>>> c4c2c11a85409358d19682720075346482d51ab3
   attr_reader :name
   @@all = []
 
@@ -13,6 +17,7 @@ class Cat
     @name
   end
 
+<<<<<<< HEAD
   def owner
     @owner
   end
@@ -33,3 +38,18 @@ class Cat
     @@all
   end
 end
+=======
+  def self.all
+    @@all
+  end
+
+end
+
+# def mood=(mood=nervous)
+#   @mood = "#{mood}"
+# end
+#
+# def mood
+#   @mood
+# end
+>>>>>>> c4c2c11a85409358d19682720075346482d51ab3

@@ -1,6 +1,10 @@
 require 'pry'
 
 class Dog
+<<<<<<< HEAD
+=======
+  attr_accessor :owner, :mood
+>>>>>>> c4c2c11a85409358d19682720075346482d51ab3
   attr_reader :name
   @@all = []
 
@@ -15,6 +19,7 @@ class Dog
     @name
   end
 
+<<<<<<< HEAD
   def owner
     @owner
   end
@@ -31,6 +36,8 @@ class Dog
     @mood = mood
   end
 
+=======
+>>>>>>> c4c2c11a85409358d19682720075346482d51ab3
   def self.all
     @@all
   end
